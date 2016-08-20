@@ -18,11 +18,24 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
 
+
+
+
+
+
+
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar." parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowActivityTransitions">true</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/grid_exit</item>
     </style>
 
 </resources>
