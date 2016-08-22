@@ -1,9 +1,9 @@
 package com.example.xyzreader.ui;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.app.FragmentManager;
-import android.app.LoaderManager;
-import android.content.Loader;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.content.Loader;
 import android.database.Cursor;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,7 +25,7 @@ import com.example.xyzreader.data.ItemsContract;
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.
  */
-public class ArticleDetailActivity extends ActionBarActivity
+public class ArticleDetailActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private Cursor mCursor;
@@ -177,6 +178,7 @@ public class ArticleDetailActivity extends ActionBarActivity
 
         @Override
         public Fragment getItem(int position) {
+       //     super.getItem(position);
             mCursor.moveToPosition(position);
             return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID));
         }
