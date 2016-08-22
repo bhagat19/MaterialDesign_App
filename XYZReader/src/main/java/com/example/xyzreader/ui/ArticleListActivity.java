@@ -12,7 +12,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
+import android.app.FragmentTransaction;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -20,6 +20,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
@@ -44,6 +45,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     private boolean isTwoPane = false;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
+    final String LOG_TAG = ArticleListActivity.class.getSimpleName();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -78,14 +80,15 @@ public class ArticleListActivity extends AppCompatActivity implements
         Uri uri = ItemsContract.Items.buildItemUri(itemId);
 
         if(isTwoPane){
+            Log.v(LOG_TAG,"Inside two pane "+itemId);
            ArticleDetailFragment articleDetailFragment = ArticleDetailFragment.newInstance(itemId);
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.detail_container,articleDetailFragment);
             ft.commit();
         }
 
 
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
-        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+    //    overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 }

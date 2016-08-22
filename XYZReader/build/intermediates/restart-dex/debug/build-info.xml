@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="22"
+    api-level="19"
     density="xhdpi"
     format="7"
-    timestamp="795344987861382"
+    timestamp="992741143911828"
     token="3384495830246400780" >
 
     <task
         name="javac"
-        duration="7766" />
+        duration="4019" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="441" />
+        duration="426" />
     <task
         name="verifier"
-        duration="95" />
+        duration="91" />
 
     <artifact
         location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
         type="MAIN" />
 
-    <build timestamp="795344987861382" >
+    <build timestamp="992741143911828" >
         <artifact
             location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />

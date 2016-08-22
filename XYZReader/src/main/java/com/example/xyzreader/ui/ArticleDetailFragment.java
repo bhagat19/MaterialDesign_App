@@ -1,9 +1,9 @@
 package com.example.xyzreader.ui;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.LoaderManager;
+import android.app.Fragment;
+import android.app.LoaderManager;
 import android.content.Intent;
-import android.support.v4.content.Loader;
+import android.content.Loader;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Color;

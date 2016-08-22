@@ -5,18 +5,19 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v4.content.Loader;
+import android.content.Loader;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 
-import android.support.v4.app.LoaderManager;
+import android.app.LoaderManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +38,7 @@ public class ArticleListFragment extends Fragment implements
     private RecyclerView mRecyclerView;
     private Toolbar mToolbar;
     public Context mContext;
+    final String LOG_TAG = ArticleListFragment.class.getSimpleName();
 
     public onItemSelectedListener mListener;
 
@@ -151,7 +153,7 @@ public class ArticleListFragment extends Fragment implements
 
         StaggeredGridLayoutManager sglm =
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
-
+       // if (findView)
         mRecyclerView.setLayoutManager(sglm);
 
     }
@@ -187,6 +189,7 @@ public class ArticleListFragment extends Fragment implements
                     //                   toBundle();
                     Uri uri = ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()));
                     long itemId = getItemId(vh.getAdapterPosition());
+                    Log.v(LOG_TAG,"itemId when clicked "+itemId);
                     mListener.onItemSelected(itemId);
                     /*
                     startActivity(new Intent(Intent.ACTION_VIEW,

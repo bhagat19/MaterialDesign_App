@@ -1,9 +1,9 @@
 package com.example.xyzreader.ui;
 
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.app.FragmentManager;
-import android.support.v4.app.LoaderManager;
-import android.support.v4.content.Loader;
+import android.app.LoaderManager;
+import android.content.Loader;
 import android.database.Cursor;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
@@ -112,7 +112,7 @@ public class ArticleDetailActivity extends AppCompatActivity
     @Override
     public void onBackPressed() {
         finish();
-        overridePendingTransition(R.anim.left_in, R.anim.right_out);
+  //      overridePendingTransition(R.anim.left_in, R.anim.right_out);
     }
 
 
