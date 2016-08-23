@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="2bfc5e27d18e7b8ef59eeddbe7acb2373a04c50f">
+        <dex dex="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\instant-run-bootstrap_65de65f4e9dd9d69eeac68f18702e54b227211c2.jar" />
+    </item>
+
+</items>

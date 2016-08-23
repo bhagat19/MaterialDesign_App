@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.app.LoaderManager;
 import android.content.Intent;
 import android.content.Loader;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -54,12 +55,24 @@ public class ArticleDetailFragment extends Fragment implements
     private int mScrollY;
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
+    final String LOG_TAG = ArticleDetailFragment.class.getSimpleName();
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
     public ArticleDetailFragment() {
+    }
+
+    public boolean isLargeLayout(){
+
+        Configuration config = getActivity().getResources().getConfiguration();
+        Log.v(LOG_TAG,"configuration "+config.smallestScreenWidthDp);
+        if (config.smallestScreenWidthDp >=600){
+            return true;
+        }
+        else
+            return false;
     }
 
     public static ArticleDetailFragment newInstance(long itemId) {
@@ -117,7 +130,9 @@ public class ArticleDetailFragment extends Fragment implements
             @Override
             public void onScrollChanged() {
                 mScrollY = mScrollView.getScrollY();
-                getActivityCast().onUpButtonFloorChanged(mItemId, ArticleDetailFragment.this);
+                if(!isLargeLayout()){
+                    getActivityCast().onUpButtonFloorChanged(mItemId, ArticleDetailFragment.this);
+                }
                 mPhotoContainerView.setTranslationY((int) (mScrollY - mScrollY / PARALLAX_FACTOR));
                 updateStatusBar();
             }

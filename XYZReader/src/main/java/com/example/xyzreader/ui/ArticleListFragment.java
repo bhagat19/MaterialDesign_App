@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.Loader;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.app.Fragment;
 
 import android.app.LoaderManager;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
@@ -46,7 +48,16 @@ public class ArticleListFragment extends Fragment implements
          void onItemSelected(long itemId);
     }
 
+    public boolean isLargeLayout(){
 
+        Configuration config = getActivity().getResources().getConfiguration();
+        Log.v(LOG_TAG,"configuration "+config.smallestScreenWidthDp);
+        if (config.smallestScreenWidthDp >=600){
+            return true;
+        }
+        else
+            return false;
+    }
 
     @Override
     public void onAttach(Activity activity) {
@@ -69,6 +80,7 @@ public class ArticleListFragment extends Fragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+    //    mContext = getActivity();
 
 
     }
@@ -154,7 +166,11 @@ public class ArticleListFragment extends Fragment implements
         StaggeredGridLayoutManager sglm =
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
        // if (findView)
-        mRecyclerView.setLayoutManager(sglm);
+        if(isLargeLayout()) {
+            mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        }
+        else
+            mRecyclerView.setLayoutManager(sglm);
 
     }
 

@@ -50,9 +50,9 @@ public class ArticleListActivity extends AppCompatActivity implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       setContentView(R.layout.activity_article_list);
+        setContentView(R.layout.activity_article_list);
 
-        if(findViewById(R.id.detail_container) != null){
+        if (findViewById(R.id.detail_container) != null) {
             isTwoPane = true;
         }
         /*
@@ -73,22 +73,19 @@ public class ArticleListActivity extends AppCompatActivity implements
     }
 
 
-
-
     @Override
-    public void onItemSelected(long itemId){
+    public void onItemSelected(long itemId) {
         Uri uri = ItemsContract.Items.buildItemUri(itemId);
 
-        if(isTwoPane){
-            Log.v(LOG_TAG,"Inside two pane "+itemId);
-           ArticleDetailFragment articleDetailFragment = ArticleDetailFragment.newInstance(itemId);
+        if (isTwoPane) {
+            Log.v(LOG_TAG, "Inside two pane " + itemId);
+            ArticleDetailFragment articleDetailFragment = ArticleDetailFragment.newInstance(itemId);
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.replace(R.id.detail_container,articleDetailFragment);
+            ft.replace(R.id.detail_container, articleDetailFragment);
             ft.commit();
+        } else {
+            startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
         }
-
-
-        startActivity(new Intent(Intent.ACTION_VIEW, uri));
-    //    overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 }
