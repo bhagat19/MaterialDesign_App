@@ -5,6 +5,7 @@ import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.content.IntentFilter;
 import android.content.Loader;
@@ -76,11 +77,22 @@ public class ArticleListActivity extends AppCompatActivity implements
     @Override
     public void onItemSelected(long itemId) {
         Uri uri = ItemsContract.Items.buildItemUri(itemId);
+        DynamicHeightNetworkImageView view = (DynamicHeightNetworkImageView) findViewById(R.id.thumbnail);
+  //      ArticleListFragment fragmentArticleList =
+   //             (ArticleListFragment) getFragmentManager().findFragmentById(R.id.articleList_fragment);
+    //    fragmentArticleList.setActivateOnItemClick(true);
 
         if (isTwoPane) {
             Log.v(LOG_TAG, "Inside two pane " + itemId);
             ArticleDetailFragment articleDetailFragment = ArticleDetailFragment.newInstance(itemId);
             FragmentTransaction ft = getFragmentManager().beginTransaction();
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                ft.addSharedElement(view, "transition_photo");
+
+            }
+       //     ft.setCustomAnimations()
+
             ft.replace(R.id.detail_container, articleDetailFragment);
             ft.commit();
         } else {

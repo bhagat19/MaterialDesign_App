@@ -472,7 +472,7 @@ int id action_up 0x7f0e0051
 int id activity_chooser_view_content 0x7f0e0026
 int id alertTitle 0x7f0e0030
 int id always 0x7f0e0016
-int id articleDetail_fragment 0x7f0e0052
+int id articleList_fragment 0x7f0e0052
 int id article_body 0x7f0e005b
 int id article_byline 0x7f0e005a
 int id article_subtitle 0x7f0e0062

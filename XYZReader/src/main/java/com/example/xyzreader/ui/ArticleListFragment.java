@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.app.Fragment;
 
 import android.app.LoaderManager;
+import android.support.annotation.IntegerRes;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,6 +24,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -181,6 +183,7 @@ public class ArticleListFragment extends Fragment implements
 
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
         private Cursor mCursor;
+        private int selectedPos = 0;
 
         public Adapter(Cursor cursor) {
             mCursor = cursor;
@@ -205,6 +208,11 @@ public class ArticleListFragment extends Fragment implements
                     //                   toBundle();
                     Uri uri = ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()));
                     long itemId = getItemId(vh.getAdapterPosition());
+                    /*
+                    notifyItemChanged(selectedPos);
+                    selectedPos = (Integer) view.getTag();
+                    notifyItemChanged(selectedPos);
+                    */
                     Log.v(LOG_TAG,"itemId when clicked "+itemId);
                     mListener.onItemSelected(itemId);
                     /*
@@ -220,6 +228,10 @@ public class ArticleListFragment extends Fragment implements
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
             mCursor.moveToPosition(position);
+            /*
+            holder.itemView.setTag(position);
+            holder.itemView.setSelected(selectedPos == position);
+            */
             holder.titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
             holder.subtitleView.setText(
                     DateUtils.getRelativeTimeSpanString(
@@ -252,6 +264,16 @@ public class ArticleListFragment extends Fragment implements
             subtitleView = (TextView) view.findViewById(R.id.article_subtitle);
         }
     }
+    /*
+
+    public void setActivateOnItemClick(boolean activateOnItemClick) {
+        // When setting CHOICE_MODE_SINGLE, ListView will automatically
+        // give items the 'activated' state when touched.
+        mRecyclerView.setAc(
+                activateOnItemClick ? ListView.CHOICE_MODE_SINGLE
+                        : ListView.CHOICE_MODE_NONE);
+    }
+    */
 }
 
 

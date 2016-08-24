@@ -9,7 +9,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:id="@+id/articleDetail_fragment"
+        android:id="@+id/articleList_fragment"
         android:name="com.example.xyzreader.ui.ArticleListFragment"/>
     <FrameLayout
         android:id="@+id/detail_container"

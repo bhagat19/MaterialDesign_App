@@ -1680,7 +1680,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0e0026;
         public static final int alertTitle=0x7f0e0030;
         public static final int always=0x7f0e0016;
-        public static final int articleDetail_fragment=0x7f0e0052;
+        public static final int articleList_fragment=0x7f0e0052;
         public static final int article_body=0x7f0e005b;
         public static final int article_byline=0x7f0e005a;
         public static final int article_subtitle=0x7f0e0062;

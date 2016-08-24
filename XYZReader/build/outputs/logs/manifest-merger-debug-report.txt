@@ -48,7 +48,7 @@ MERGED from [com.android.support:cardview-v7:22.0.0] C:\Users\amit\Android_Nanod
 	android:icon
 		ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:15:9-59
 activity#com.example.xyzreader.ui.ArticleListActivity
 ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:17:9-25:20
 	android:label
