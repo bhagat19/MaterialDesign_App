@@ -4,30 +4,35 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="1165360213464425"
+    timestamp="348562858955865"
     token="3384495830246400780" >
 
     <task
         name="javac"
-        duration="4050" />
+        duration="13012" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4383" />
+        duration="273" />
     <task
         name="verifier"
-        duration="1055" />
+        duration="55" />
 
     <artifact
-        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
-        type="MAIN" />
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
 
-    <build timestamp="1165360213464425" >
+    <build timestamp="348188966033980" >
         <artifact
             location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="348562858955865" >
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

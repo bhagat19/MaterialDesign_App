@@ -97,7 +97,7 @@ public class ArticleListFragment extends Fragment implements
         mToolbar = (Toolbar) root.findViewById(R.id.toolbar);
 
 
-        final View toolbarContainerView = root.findViewById(R.id.toolbar_container);
+  //      final View toolbarContainerView = root.findViewById(R.id.toolbar_container);
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) root.findViewById(R.id.swipe_refresh_layout);
 

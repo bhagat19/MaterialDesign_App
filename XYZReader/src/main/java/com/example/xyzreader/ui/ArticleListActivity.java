@@ -1,15 +1,10 @@
 package com.example.xyzreader.ui;
 
-import android.app.ActivityOptions;
-import android.app.LoaderManager;
-import android.content.BroadcastReceiver;
-import android.content.Context;
+
 import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
-import android.content.IntentFilter;
-import android.content.Loader;
-import android.database.Cursor;
+
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -20,18 +15,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
-import android.text.format.DateUtils;
+
 import android.util.Log;
-import android.util.TypedValue;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+
 
 import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
+
 import com.example.xyzreader.data.ItemsContract;
-import com.example.xyzreader.data.UpdaterService;
+
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
