@@ -4,18 +4,18 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="504031538259699"
+    timestamp="509977988133143"
     token="3384495830246400780" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="38233" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="2641" />
     <task
         name="verifier"
         duration="0" />
@@ -23,26 +23,166 @@
     <artifact
         location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_37ff7232e82307d0f6540c72812ff66b9fa24fdd\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_6824ba43f04dd9616012bd5a8e310eebe706aa2a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.0.1_2ef60567c646212090568f6aa8992ba7470346c0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9f06ac5b4c9e34d0db8b45d626c7998a302b973f\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_68d23f1d1b261ae0f5c99936d28efe4da2077e43\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.0.1_bc7b34b2e0be44213095167052d0371ac33e49c0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_65de65f4e9dd9d69eeac68f18702e54b227211c2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_8f03aa622c6352bff26662b991e2c04817f2778c\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_2c21b796f39b080ec857b5844950b0b68a8bf1f8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-23.0.1_1a3612dd506be3a2e51fc5aebb3cb528b768a46a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.0.1_30417a4d9e1e9269c8a1a56dc258629289259310\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_180e4a5c444eeee3c2b3430008d0ba0f5e417ede\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.0.1_18e874a6b3fc4a5288e2b06aeb71eaf908740dc6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_58fb04bfb2b771d31eb594f94f592c685d906428\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_edb18c8675206051c07a453472500ef9ad3406b3\classes.dex"
+        type="DEX" />
 
-    <build timestamp="497738621075162" >
+    <build timestamp="509717334352329" >
         <artifact
             location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="501379680198486" >
-        <artifact
-            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="501474209987469" >
-        <artifact
-            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="504031538259699" >
+    <build timestamp="509977988133143" >
         <artifact
             location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_37ff7232e82307d0f6540c72812ff66b9fa24fdd\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_6824ba43f04dd9616012bd5a8e310eebe706aa2a\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.0.1_2ef60567c646212090568f6aa8992ba7470346c0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9f06ac5b4c9e34d0db8b45d626c7998a302b973f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_68d23f1d1b261ae0f5c99936d28efe4da2077e43\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.0.1_bc7b34b2e0be44213095167052d0371ac33e49c0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_65de65f4e9dd9d69eeac68f18702e54b227211c2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_8f03aa622c6352bff26662b991e2c04817f2778c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_2c21b796f39b080ec857b5844950b0b68a8bf1f8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-23.0.1_1a3612dd506be3a2e51fc5aebb3cb528b768a46a\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.0.1_30417a4d9e1e9269c8a1a56dc258629289259310\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_180e4a5c444eeee3c2b3430008d0ba0f5e417ede\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.0.1_18e874a6b3fc4a5288e2b06aeb71eaf908740dc6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_58fb04bfb2b771d31eb594f94f592c685d906428\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_edb18c8675206051c07a453472500ef9ad3406b3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
