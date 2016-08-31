@@ -47,21 +47,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         if (findViewById(R.id.detail_container) != null) {
             isTwoPane = true;
         }
-        /*
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-
-        final View toolbarContainerView = findViewById(R.id.toolbar_container);
-
-        mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
-
-        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
-
-        if (savedInstanceState == null) {
-            refresh();
-        }
-        */
     }
 
 
@@ -82,7 +68,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                 ft.addSharedElement(view, "transition_photo");
 
             }
-       //     ft.setCustomAnimations()
+
 
             ft.replace(R.id.detail_container, articleDetailFragment);
             ft.commit();
