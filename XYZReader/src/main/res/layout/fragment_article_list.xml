@@ -34,6 +34,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/logo"
                         android:layout_gravity="left|bottom"
+                        android:paddingLeft="@dimen/list_side_margin"
 
 
 

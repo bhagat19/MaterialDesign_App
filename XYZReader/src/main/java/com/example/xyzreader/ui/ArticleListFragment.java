@@ -241,7 +241,7 @@ public class ArticleListFragment extends Fragment implements
                             + " by "
                             + mCursor.getString(ArticleLoader.Query.AUTHOR));
             holder.thumbnailView.setImageUrl(
-                    mCursor.getString(ArticleLoader.Query.PHOTO_URL),
+                    mCursor.getString(ArticleLoader.Query.THUMB_URL),
                     ImageLoaderHelper.getInstance(mContext).getImageLoader());
             holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
         }

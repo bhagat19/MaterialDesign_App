@@ -4,7 +4,7 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="496230551374220"
+    timestamp="502937219278541"
     token="3384495830246400780" >
 
     <task
@@ -23,22 +23,26 @@
     <artifact
         location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
-    <artifact
-        location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
 
-    <build timestamp="495828921509977" >
+    <build timestamp="497738621075162" >
         <artifact
             location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="496230551374220" >
+    <build timestamp="501379680198486" >
         <artifact
-            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="501474209987469" >
         <artifact
             location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
+    </build>
+    <build timestamp="502937219278541" >
+        <artifact
+            location="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

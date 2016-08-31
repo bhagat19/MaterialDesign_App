@@ -51,7 +51,7 @@ MERGED from [com.android.support:support-v4:22.2.0] C:\Users\amit\Android_Nanode
 	android:icon
 		ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:15:9-59
+		ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:15:9-40
 activity#com.example.xyzreader.ui.ArticleListActivity
 ADDED from C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\src\main\AndroidManifest.xml:17:9-25:20
 	android:label

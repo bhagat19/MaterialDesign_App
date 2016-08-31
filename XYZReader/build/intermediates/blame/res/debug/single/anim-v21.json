@@ -4,8 +4,16 @@
         "source": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\src\\main\\res\\anim-v21\\right_in.xml"
     },
     {
+        "merged": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\left_in.xml",
         "source": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\src\\main\\res\\anim-v21\\left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     },
     {
         "merged": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\fab_state_list_anim.xml",
@@ -18,5 +26,9 @@
     {
         "merged": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\right_out.xml",
         "source": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\src\\main\\res\\anim-v21\\right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\amit\\Android_Nanodegree\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

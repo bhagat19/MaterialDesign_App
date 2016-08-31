@@ -1,2 +1,4 @@
+CHANGED,C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\xyzreader\ui\ArticleListFragment$ViewHolder$override.class
 CHANGED,C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\xyzreader\ui\ArticleDetailFragment$2$override.class
 CHANGED,C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\xyzreader\ui\ArticleDetailFragment$override.class
