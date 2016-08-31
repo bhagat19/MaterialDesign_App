@@ -47,7 +47,7 @@
         jar="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="c4fec2b58cb5bee9e030e0f048217d31849c3aa6">
+        sha1="52542977d669a0ed17d59f4d699d546495dc587a">
         <dex dex="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_65de65f4e9dd9d69eeac68f18702e54b227211c2\classes.dex" />
     </item>
     <item
@@ -89,7 +89,7 @@
         jar="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="565bec998743e2f16ca5c15e3ea2c63bded6c741">
+        sha1="6cbca1ae46280a70d4a433c6242ac1a544cf5ea2">
         <dex dex="C:\Users\amit\Android_Nanodegree\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9f06ac5b4c9e34d0db8b45d626c7998a302b973f\classes.dex" />
     </item>
     <item
