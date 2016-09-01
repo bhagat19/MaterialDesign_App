@@ -22,7 +22,7 @@
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
             app:contentScrim="@color/theme_primary_dark"
-            app:layout_scrollFlags="scroll">
+            app:layout_scrollFlags="scroll|enterAlways|snap">
 
             <!--<FrameLayout-->
             <!--android:layout_width="match_parent"-->
